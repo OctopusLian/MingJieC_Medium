@@ -1,3 +1,7 @@
+/*
+版本三：同时训练扩大水平方向视野的心算训练 
+*/
+
 #include<time.h>
 #include<stdio.h>
 #include<string.h>

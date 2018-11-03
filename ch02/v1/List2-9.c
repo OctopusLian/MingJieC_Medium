@@ -1,3 +1,7 @@
+/*
+版本一:从右往左滚动字符 
+*/ 
+
 #include<time.h>
 #include<stdio.h>
 #include<string.h>
@@ -32,10 +36,10 @@ int main(void)
 		fflush(stdout);
 		sleep(500);
 		
-		if(cnt > 0)
-			cnt--;
+		if(cnt < name_len - 1)
+			cnt++;
 		else
-			cnt = name_len - 1;
+			cnt = 0;
 	}
 	
 	return 0;
